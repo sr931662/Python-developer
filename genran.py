@@ -40,8 +40,11 @@ seedLCG(1)
 #printing output in a certain range.
 for i in range(5):
     print(LinearCongGenerator())
+    
+    #ploting and using hist function to use generator function output to see if it works.
     plt.hist(seed, bins = 1, alpha = 1)
     
     continue
+#display output on graph using plt.show function.
 plt.show()
 
